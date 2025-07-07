@@ -1,5 +1,5 @@
 # IMDB Movie Review Sentiment Classifier
-this repository contains two colab notebooks
+This repository contains two colab notebooks
 one file trains different review classifier models like naive bayes, logistic regression, cnn, rnn, lstm and compare their accuracy, precision, recall and f1 score
 second file uses latent Dirichlet allocation (LDA) for topic modeling of all the reviews, if finds ten topics and thier keywords
 This project involves building a sentiment analysis classifier to predict whether movie reviews are positive or negative using the IMDB dataset (50,000 reviews from Kaggle). The text data was preprocessed by removing HTML tags, punctuation, and stopwords, followed by tokenization and normalization using NLTK.Exploratory Data Analysis (EDA) included generating word clouds and analyzing review length, word count, and average word length. Multiple models were trained for classification, including Naive Bayes, Logistic Regression, CNN, RNN, and LSTM. Model performance was evaluated using accuracy, precision, recall, and F1 score, showcasing the effectiveness of both traditional and deep learning approaches.
